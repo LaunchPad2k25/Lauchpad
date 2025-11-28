@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation: New Gagai's Automobiles | Launch Pad 2025</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        slate: {
+                            950: '#020617',
+                        }
+                    },
+                    animation: {
+                        'bounce-slow': 'bounce 3s infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 5px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #f97316;
+        }
+        
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+            will-change: opacity, visibility;
+        }
+        .fade-in-section.is-visible {
+            opacity: 1;
+            transform: none;
+        }
+
+        /* Modal specific classes */
+        .modal {
+            transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+        }
+        .modal-content {
+            transition: transform 0.3s ease-out;
+        }
+        .modal-open .modal-content {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans selection:bg-orange-500 selection:text-white overflow-x-hidden">
+
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="text-xl font-bold tracking-tighter flex items-center gap-2">
+                <span class="text-orange-500">LAUNCH</span>
+                <span class="text-white">PAD</span>
+                <span class="text-slate-500">2025</span>
+            </div>
+            <div class="text-xs font-medium tracking-widest text-slate-400 uppercase hidden sm:block">
+                Salim Habib University
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl animate-pulse-slow"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl animate-pulse-slow" style="animation-delay: 1s;"></div>
+
+        <div class="relative z-10 max-w-4xl mx-auto px-6 text-center fade-in-section is-visible">
+            <div class="inline-block mb-4 px-4 py-1 rounded-full bg-slate-800 border border-slate-700 text-orange-400 text-sm font-semibold tracking-wide uppercase">
+                Special Guest Invitation
+            </div>
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight text-white">
+                Accelerating <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500">Future</span> Leaders
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-400 mb-8 max-w-2xl mx-auto">
+                Salim Habib University is honored to invite <strong class="text-white">New Gagai's Automobiles</strong> to the premier entrepreneurship event of the year, LAUNCH PAD 2025.
+            </p>
+            
+            <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+                <a href="#invitation" class="group bg-white text-slate-900 px-8 py-3 rounded-full font-bold transition-all hover:bg-orange-500 hover:text-white flex items-center gap-2">
+                    View Invitation
+                    <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce-slow text-slate-600">
+            <div class="w-6 h-10 border-2 border-slate-600 rounded-full flex justify-center pt-2">
+                <div class="w-1 h-2 bg-slate-600 rounded-full"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="invitation" class="py-24 bg-slate-900 relative">
+        <div class="max-w-4xl mx-auto px-6 fade-in-section">
+            <div class="bg-slate-950 border border-slate-800 p-8 md:p-12 rounded-2xl shadow-2xl relative overflow-hidden">
+                <div class="absolute top-4 left-4 text-8xl text-slate-800 font-serif opacity-50 leading-none">"</div>
+                
+                <div class="relative z-10 space-y-6 text-lg text-slate-300 leading-relaxed">
+                    <h2 class="text-3xl font-bold text-white mb-6">Dear Leaders at New Gagai's Automobiles,</h2>
+                    <p>
+                        Salim Habib University is honored to invite New Gagai's Automobiles to participate as a <span class="text-orange-400 font-semibold">Special Guest and Showcase Partner</span> at our premier entrepreneurship event, <strong>LAUNCH PAD 2025</strong>.
+                    </p>
+                    <p>
+                        Your presence serves as a testament to the power of business innovation. You are invited to be an integral part of this event dedicated to fostering innovation, new business ideation, and connecting our brightest entrepreneurial students with established industry pioneers.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-950">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1 grid grid-cols-2 gap-4 fade-in-section">
+                    <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-orange-500/50 hover:bg-slate-800 transition-all group">
+                        <i data-lucide="car" class="w-8 h-8 text-orange-500 mb-3 group-hover:scale-110 transition-transform"></i>
+                        <h4 class="font-bold text-white mb-1">Showcase</h4>
+                        <p class="text-sm text-slate-400">3-4 Innovative Vehicles</p>
+                    </div>
+                    <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-orange-500/50 hover:bg-slate-800 transition-all group">
+                        <i data-lucide="star" class="w-8 h-8 text-orange-500 mb-3 group-hover:scale-110 transition-transform"></i>
+                        <h4 class="font-bold text-white mb-1">Premium</h4>
+                        <p class="text-sm text-slate-400">Dedicated Display Space</p>
+                    </div>
+                    <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-orange-500/50 hover:bg-slate-800 transition-all group">
+                        <i data-lucide="users" class="w-8 h-8 text-orange-500 mb-3 group-hover:scale-110 transition-transform"></i>
+                        <h4 class="font-bold text-white mb-1">Connect</h4>
+                        <p class="text-sm text-slate-400">Inspire Future Leaders</p>
+                    </div>
+                    <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 hover:border-orange-500/50 hover:bg-slate-800 transition-all group">
+                        <i data-lucide="check-circle" class="w-8 h-8 text-orange-500 mb-3 group-hover:scale-110 transition-transform"></i>
+                        <h4 class="font-bold text-white mb-1">Impact</h4>
+                        <p class="text-sm text-slate-400">Real-world Inspiration</p>
+                    </div>
+                </div>
+
+                <div class="order-1 md:order-2 space-y-6 fade-in-section">
+                    <h3 class="text-3xl font-bold text-white">Your Mission</h3>
+                    <p class="text-slate-400 text-lg">
+                        We formally request KIA Macca to join us and showcase <span class="text-white font-semibold">3 to 4 of your latest, innovative vehicles</span>.
+                    </p>
+                    <p class="text-slate-400 text-lg">
+                        Your participation will provide powerful, real-world inspiration for the future business leaders at our event. Dedicated, premium display space will be reserved for your vehicles.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sponsorship" class="py-24 bg-slate-800/50 border-y border-slate-700">
+        <div class="max-w-6xl mx-auto px-6 fade-in-section">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-extrabold text-white mb-4">Sponsorship Opportunities</h2>
+                <p class="text-xl text-slate-300 max-w-3xl mx-auto">
+                    Partner with Launch Pad 2025 to elevate your brand presence and inspire the next generation of innovators.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-10 mb-12">
+                <div class="bg-slate-900 p-8 rounded-xl border-2 border-orange-500/80 shadow-2xl shadow-orange-900/20 transition-transform hover:scale-[1.02] duration-300">
+                    <div class="mb-6">
+                        <span class="text-sm font-bold tracking-widest uppercase text-orange-400">Exclusive Tier</span>
+                        <h3 class="text-3xl font-bold text-white mt-1">Platinum Partner</h3>
+                    </div>
+                    
+                    <div class="border-t border-slate-700 pt-4 mb-6">
+                        <p class="text-slate-400 text-sm mb-2">Sponsorship Amount:</p>
+                        <p class="text-4xl font-extrabold text-orange-500">PKR 55,000</p>
+                    </div>
+
+                    <h4 class="font-bold text-white mb-3 flex items-center gap-2">
+                        <i data-lucide="star" class="w-5 h-5 text-orange-500"></i>
+                        Premium Benefits:
+                    </h4>
+                    <ul class="space-y-3 text-slate-300 text-base">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="monitor-play" class="w-4 h-4 mt-1 flex-shrink-0 text-green-400"></i>
+                            <span>Prominent **Advertisement Banners** everywhere.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="mic-2" class="w-4 h-4 mt-1 flex-shrink-0 text-green-400"></i>
+                            <span>Separate **News Channel Interviews** for company representatives.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="megaphone" class="w-4 h-4 mt-1 flex-shrink-0 text-green-400"></i>
+                            <span>Multiple mentions during all event ceremonies.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="user-check" class="w-4 h-4 mt-1 flex-shrink-0 text-green-400"></i>
+                            <span>VIP access for 4 company representatives.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-slate-900 p-8 rounded-xl border border-slate-700 shadow-xl transition-transform hover:scale-[1.02] duration-300">
+                    <div class="mb-6">
+                        <span class="text-sm font-bold tracking-widest uppercase text-slate-400">Standard Tier</span>
+                        <h3 class="text-3xl font-bold text-white mt-1">Silver Partner</h3>
+                    </div>
+                    
+                    <div class="border-t border-slate-700 pt-4 mb-6">
+                        <p class="text-slate-400 text-sm mb-2">Sponsorship Amount:</p>
+                        <p class="text-4xl font-extrabold text-slate-300">PKR 35,000</p>
+                    </div>
+
+                    <h4 class="font-bold text-white mb-3 flex items-center gap-2">
+                        <i data-lucide="award" class="w-5 h-5 text-slate-400"></i>
+                        Key Benefits:
+                    </h4>
+                    <ul class="space-y-3 text-slate-300 text-base">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-4 h-4 mt-1 flex-shrink-0 text-green-400"></i>
+                            <span>Advertisement banner/signage **only at dedicated display space**.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-4 h-4 mt-1 flex-shrink-0 text-green-400"></i>
+                            <span>Recognition on event's social media sponsor page.</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-slate-500">
+                            <i data-lucide="x" class="w-4 h-4 mt-1 flex-shrink-0 text-red-500"></i>
+                            <span>Does not include news channel interviews.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check" class="w-4 h-4 mt-1 flex-shrink-0 text-green-400"></i>
+                            <span>VIP access for 2 company representatives.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="space-y-8 p-8 bg-slate-900 rounded-xl border border-slate-700">
+                <h4 class="text-2xl font-bold text-white border-b border-slate-800 pb-3 flex items-center gap-3">
+                    <i data-lucide="banknote" class="w-7 h-7 text-orange-500"></i>
+                    Confirmation & Payment Method
+                </h4>
+                <div class="grid sm:grid-cols-2 gap-6">
+                    <div>
+                        <p class="text-lg font-semibold text-slate-300 mb-2">1. Sponsorship Agreement</p>
+                        <p class="text-slate-400">
+                            Once confirmed, a formal agreement will be sent detailing all deliverables and commitment terms.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="text-lg font-semibold text-slate-300 mb-2">2. Payment Details</p>
+                        <ul class="space-y-2 text-slate-400">
+                            <li>
+                                <strong class="text-white">Method:</strong> Bank Transfer or Crossed Cheque
+                            </li>
+                            <li>
+                                <strong class="text-white">Payable To:</strong> Salim Habib University Events Fund
+                            </li>
+                            <li>
+                                <strong class="text-white">Due Date:</strong> November 30,  2025
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <blockquote class="border-l-4 border-orange-500 pl-4 py-2 text-slate-400 italic">
+                    "Your investment directly empowers the next generation of entrepreneurs through hands-on education and networking."
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-gradient-to-b from-slate-900 to-slate-950">
+        <div class="max-w-5xl mx-auto px-6 text-center fade-in-section">
+            <h2 class="text-3xl font-bold mb-16 text-white tracking-tight">Event Logistics</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-2xl border bg-slate-950 border-slate-800 flex flex-col items-center transition-all duration-300 hover:-translate-y-2">
+                    <div class="w-12 h-12 rounded-full bg-slate-900 text-slate-300 flex items-center justify-center mb-6">
+                        <i data-lucide="clock" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-sm font-bold tracking-widest text-slate-500 mb-4">TIME</h3>
+                    <p class="text-lg font-bold text-white">10:00 AM - 4:00 PM</p>
+                </div>
+
+                <div class="p-8 rounded-2xl border bg-slate-800 border-orange-500 shadow-lg shadow-orange-900/20 flex flex-col items-center transition-all duration-300 hover:-translate-y-2 transform scale-105">
+                    <div class="w-12 h-12 rounded-full bg-orange-500 text-white flex items-center justify-center mb-6">
+                        <i data-lucide="calendar" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-sm font-bold tracking-widest text-slate-500 mb-4">DATE</h3>
+                    <p class="text-lg font-bold text-white">Wednesday</p>
+                    <p class="text-lg text-slate-400">Dec 4, 2025</p>
+                </div>
+
+                <a href="https://maps.app.goo.gl/TC1GFdArKDKWTBLN8" target="_blank" rel="noopener noreferrer" class="group relative p-8 rounded-2xl border bg-slate-950 border-slate-800 flex flex-col items-center transition-all duration-300 hover:-translate-y-2 hover:bg-slate-900 hover:border-slate-600 cursor-pointer">
+                    <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity text-slate-500">
+                        <i data-lucide="external-link" class="w-4 h-4"></i>
+                    </div>
+                    <div class="w-12 h-12 rounded-full bg-slate-900 text-slate-300 group-hover:bg-slate-800 group-hover:text-white transition-colors flex items-center justify-center mb-6">
+                        <i data-lucide="map-pin" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-sm font-bold tracking-widest text-slate-500 mb-4">VENUE</h3>
+                    <p class="text-lg font-bold text-white">Salim Habib University</p>
+                    <p class="text-lg text-slate-400">Salim Habib Road, Karachi</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 bg-slate-950 border-t border-slate-900 relative overflow-hidden fade-in-section">
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-white">Ready to Inspire?</h2>
+            <p class="text-slate-400 mb-10">
+                Please confirm your participation and vehicle details by <span class="text-white font-semibold">December 1, 2025</span>.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button id="rsvpBtn" onclick="handleRSVP()" class="group relative overflow-hidden px-10 py-4 rounded-full font-bold text-lg transition-all duration-500 shadow-xl bg-orange-500 hover:bg-orange-600 text-white hover:scale-[1.02]">
+                    <div class="relative z-10 flex items-center justify-center gap-3" id="btnContent">
+                        <span>Confirm Participation</span>
+                        <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                    </div>
+                </button>
+
+                <button id="sponsorBtn" onclick="openSponsorModal()" class="group relative overflow-hidden px-10 py-4 rounded-full font-bold text-lg transition-all duration-500 shadow-xl border border-slate-700 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white hover:scale-[1.02]">
+                    <div class="relative z-10 flex items-center justify-center gap-3">
+                        <span>Become a Sponsor</span>
+                        <i data-lucide="handshake" class="w-5 h-5"></i>
+                    </div>
+                </button>
+            </div>
+            
+            <p id="successMsg" class="mt-6 text-green-500 text-sm hidden opacity-0 transition-opacity duration-500">
+                Thank you, KIA Macca. We have recorded your response and will contact you shortly.
+            </p>
+        </div>
+        
+        <div class="mt-20 pt-10 border-t border-slate-900 text-center">
+            <p class="text-slate-600 text-sm">© 2025 Salim Habib University | Launch Pad Event Team</p>
+        </div>
+    </footer>
+
+    <div id="sponsorModal" class="modal fixed inset-0 z-[100] bg-slate-950/95 backdrop-blur-sm opacity-0 invisible" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="flex min-h-full items-center justify-center p-4 text-center">
+            
+            <div class="modal-content transform translate-y-full w-full max-w-lg overflow-hidden rounded-2xl bg-slate-900 border border-slate-700 p-8 text-left shadow-xl transition-all">
+                <div class="flex items-center justify-between mb-6">
+                    <h3 class="text-2xl font-bold text-white flex items-center gap-3" id="modal-title">
+                        <i data-lucide="handshake" class="w-6 h-6 text-orange-500"></i>
+                        Confirm Sponsorship
+                    </h3>
+                    <button type="button" onclick="closeSponsorModal()" class="text-slate-500 hover:text-white transition-colors">
+                        <i data-lucide="x" class="w-6 h-6"></i>
+                    </button>
+                </div>
+                
+                <p class="text-slate-400 mb-6">
+                    Please provide your estimated sponsorship commitment and preferred payment method below before filling out the details form.
+                </p>
+
+                <form class="space-y-6">
+                    <div>
+                        <label for="sponsor-amount" class="block text-sm font-medium text-slate-300 mb-2">Estimated Sponsorship Amount (PKR)</label>
+                        <input type="number" id="sponsor-amount" placeholder="e.g., 55000" class="w-full rounded-lg bg-slate-800 border border-slate-700 text-white p-3 focus:ring-orange-500 focus:border-orange-500 placeholder-slate-500" min="1000">
+                    </div>
+
+                    <div>
+                        <label for="payment-method" class="block text-sm font-medium text-slate-300 mb-2">Preferred Payment Method</label>
+                        <select id="payment-method" class="w-full rounded-lg bg-slate-800 border border-slate-700 text-white p-3 focus:ring-orange-500 focus:border-orange-500">
+                            <option value="" class="bg-slate-900">Select an Option</option>
+                            <option value="bank" class="bg-slate-900">Bank Transfer</option>
+                            <option value="cheque" class="bg-slate-900">Crossed Cheque</option>
+                            <option value="other" class="bg-slate-900">Other (Specify in form)</option>
+                        </select>
+                    </div>
+                </form>
+
+                <div class="mt-8 border-t border-slate-800 pt-6">
+                    <h4 class="text-lg font-bold text-white mb-3">Next Step: Enter Details</h4>
+                    <p class="text-slate-400 mb-4">
+                        To finalize your commitment and share necessary details (contact, logo files, tier selection, etc.), please click the button below to fill out the Google Forms.
+                    </p>
+                    
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7FjGtLnONaIFI7mrSTMKwObK0ZBloFmak7vHJoBBAIU44VA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" class="group w-full flex items-center justify-center px-4 py-3 rounded-lg font-bold text-white bg-blue-600 hover:bg-blue-700 transition-colors gap-2 shadow-md shadow-blue-900/50">
+                        <i data-lucide="file-text" class="w-5 h-5"></i>
+                        Complete Sponsorship Details Form
+                        <i data-lucide="external-link" class="w-4 h-4 group-hover:translate-x-0.5 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Intersection Observer for Fade-in Animations
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in-section').forEach((section) => {
+            observer.observe(section);
+        });
+
+        // RSVP Button Logic (Existing)
+        function handleRSVP() {
+            const btn = document.getElementById('rsvpBtn');
+            const content = document.getElementById('btnContent');
+            const msg = document.getElementById('successMsg');
+
+            if (btn.getAttribute('disabled')) return;
+
+            // Loading State
+            btn.setAttribute('disabled', 'true');
+            btn.classList.remove('bg-orange-500', 'hover:bg-orange-600', 'hover:scale-[1.02]');
+            btn.classList.add('bg-slate-800', 'cursor-wait');
+            
+            content.innerHTML = `
+                <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                <span>Processing...</span>
+            `;
+
+            // Simulate Server Delay
+            setTimeout(() => {
+                // Success State
+                btn.classList.remove('bg-slate-800', 'cursor-wait');
+                btn.classList.add('bg-green-600', 'cursor-default', 'ring-4', 'ring-green-600/20');
+                
+                content.innerHTML = `
+                    <i data-lucide="check-circle" class="w-6 h-6 animate-bounce mr-2"></i>
+                    <span>RSVP Recorded</span>
+                `;
+                lucide.createIcons(); // Re-render new icons
+
+                // Show Success Message
+                msg.classList.remove('hidden');
+                // Small delay to allow display:block to apply before opacity transition
+                setTimeout(() => {
+                    msg.classList.remove('opacity-0');
+                }, 50);
+
+            }, 1500);
+        }
+
+        // Sponsor Modal Logic
+        const modal = document.getElementById('sponsorModal');
+        const body = document.body;
+
+        function openSponsorModal() {
+            modal.classList.remove('invisible', 'opacity-0');
+            modal.classList.add('visible', 'opacity-100', 'modal-open');
+            body.style.overflow = 'hidden'; // Prevent background scrolling
+            lucide.createIcons(); // Re-render any new icons in the modal
+        }
+
+        function closeSponsorModal() {
+            modal.classList.remove('visible', 'opacity-100', 'modal-open');
+            modal.classList.add('invisible', 'opacity-0');
+            body.style.overflow = ''; // Restore background scrolling
+        }
+
+        // Close modal when clicking outside (on the overlay)
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeSponsorModal();
+            }
+        });
+        
+        // Close modal on Escape key press
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && modal.classList.contains('visible')) {
+                closeSponsorModal();
+            }
+        });
+    </script>
+</body>
+</html>
